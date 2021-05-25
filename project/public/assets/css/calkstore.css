@@ -1,0 +1,329 @@
+body{
+	background-color: #fff;
+	font-family: sans-serif, arial;
+	font-size: 14px;
+}
+
+a{
+	font-family: sans-serif, arial;
+	font-size: 14px;
+
+
+}
+
+
+
+
+.container-fluid{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.sticky{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+}
+
+
+/*---------------------header---------------------------*/
+header{
+	position:relative;
+	width: 100%;
+	z-index: 999;
+}
+/*-----header-top-------*/
+.header-top{
+
+	 position: relative;
+	height: 5rem;
+
+}
+.logo{
+	margin-top: 1.7rem;
+	max-width: 25%;
+}
+.logo a{
+	color: white;
+	text-decoration: none;
+	line-height: 3rem;
+	font-size: 3rem;
+	font-weight: bold;
+	transition: color 0.3s ease-out;
+
+		
+}
+.logo a:hover{
+	color: black;
+	text-decoration: none;
+}
+
+.header-search{
+	line-height: 1.2rem;
+	margin-top: 1.5rem;
+	max-width: 50%;
+
+
+
+}
+.search{
+	width: 80%;
+	height: 3rem;
+	padding-left: 1.5rem;
+	border-radius: 999rem;
+	border-style: none;
+
+	transition:border-width  0.3s ease-out;
+	
+}
+.search:hover{
+	border-style: inset;
+	
+}
+.search-submit{
+	width: 3rem;
+	height: 3rem;
+	margin-left: 0rem;
+	color: black;
+	background-color: #ebe811;
+	border-radius: 999rem;
+	border-style: none;
+}
+.search-submit:hover{
+	color: white;
+	border-style: inset;
+}
+.action{
+	margin-top: 2rem;
+	max-width: 30%;
+}
+.action ul li {
+	display: inline-block;
+	margin-right: 0.7rem;
+}
+.action ul li a{
+	color: white;
+	font-size: 1rem;
+	font-weight: bold;
+	text-decoration: none;
+	transition: color 0.3s ease-out;
+}
+
+.action ul li a:hover{
+	color: black;
+
+}
+/*-------end:header-top--------*/
+
+/*-------header-bottom---------*/
+
+.header-bottom{
+	height: 3rem;
+	background-color: rgba(60,193,193,0.6);
+
+}
+.navbar-header ul{
+ 	position: relative;
+ 	left: 15rem;
+
+
+}
+.navbar-header ul li a{
+	color: black;
+	font-size: 1rem;
+	font-weight: bold;
+	text-decoration: none;
+	transition: color 0.3s ease-out;
+}
+.navbar-header ul li a:hover{
+	color: blue;
+
+}
+.nav-link{
+
+}
+#navbarDropdown{
+	margin-right: 2rem;
+	margin-top: 0rem;
+}
+.dropdown-menu{
+	
+
+}
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+.block{
+	display: inline-block;
+}
+
+
+
+/*-------end:header-bottom---------*/
+
+/*------------main-------------*/
+.main{
+	position: relative;
+	margin-top: 1rem;
+	
+	
+
+}
+.carousel-news{
+	text-align: center;
+	background-color: rgba(60,193,193,0.6);
+	color: black;
+}
+.carousel-item{
+	padding-top: 1rem;
+}
+.carousel-slider{
+	text-align: center;
+	color: black;
+
+}
+.slider{
+	position: absolute;
+	left: -1rem;
+
+}
+/*-------------end:main---------------*/
+
+/*-----------subcribe------------*/
+
+.subcribe{
+	background-color:rgba(60,193,193,0.6);
+	padding-bottom: 3rem;
+	padding-top: 3rem;
+	text-align: center;
+}
+
+
+/*-----------end:subcribe------------*/
+
+/*-------brand---------*/
+.brand{
+	margin-bottom: 5rem;
+	margin-top: 5rem;
+	text-align: center;
+}
+.brand-item-cover{
+	max-width: 16%;
+	float: left;
+	padding: 0 8px;
+	height: 25%;
+	
+}
+.brand-item{
+	 background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;		
+    background-size: 100%;
+    height: 100px;
+    max-width: 100px;
+
+}
+/*----------end:brand-----------*/
+
+
+
+/*-------------------------footer------------------------------*/
+footer{
+	position: relative;
+	
+	padding: 2rem;
+	color: white;
+
+
+
+
+}
+
+/*-------footer-top--------*/
+.footer-top{
+
+}
+.link{
+	
+}
+.link-social{
+	display: inline;
+}
+.link-social a {
+	color: blue;
+	font-size: 2rem;
+
+}
+.footer-list-style li a{
+	color: white;
+}
+/*-------end:footer-top---------*/
+/*-------footer-bottom--------*/
+.footer-bottom{
+
+}
+.payment{
+	
+
+}
+.brand-item{
+
+}
+/*-------end:footer-bottom---------*/
+
+/*-------------------------end:sfooter------------------------------*/
+/*responsinve*/
+
+	@media only screen and (max-width: 860px) {
+		.sticky{
+			position: relative;
+		}
+
+		.header-search{
+			max-width: 45%;
+		}
+		.search{
+			
+			max-width: 7rem;
+			height: 2.5rem;
+			padding-left: 1.5rem;
+			border-radius: 999rem;
+			border-style: none;
+
+			transition:border-width  0.3s ease-out;
+			
+		}
+
+		
+		.logo a{
+			color: white;
+			text-decoration: none;
+			line-height: 2rem;
+			font-size: 2rem;
+			font-weight: bold;
+			transition: color 0.3s ease-out;
+
+				
+		}
+		.action{
+			max-width: 30%;
+
+
+		}
+		.action-detail{
+			display: none;
+		}
+		.navbar-header ul{
+		 	position: static;
+		 	background-color: white;
+		 	width: 100%;
+
+
+		}
+		.dropdown:hover>.dropdown-menu {
+	  display: none;
+		}
+		
+
+	} 
+
