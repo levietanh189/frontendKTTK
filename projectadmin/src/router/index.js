@@ -14,13 +14,9 @@ import Suppliers from "@/views/admin/Suppliers";
 import SuppliersEdit from "@/views/admin/SuppliersEdit";
 import addSuppliers from "@/views/admin/addSuppliers";
 const routes = [
+
   {
     path: '/',
-    name: 'Home',
-    component: Home
-  },
-  {
-    path: '/statis',
     name: 'Statis',
     component: Statis
   },{

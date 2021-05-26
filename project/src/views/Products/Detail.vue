@@ -124,14 +124,19 @@ export default {
         productId:this.$route.params.id,
         customerId:this.idUser
       }
-      axios.post('http://35.240.134.17:8888/order',data).
-      then((resp)=>{
-        if (resp.data.code == 0){
-          this.$router.push('/cart');
-        }else {
-          this.message= resp.data.message
-        }
-      })
+      if (localStorage.id){
+        axios.post('http://35.240.134.17:8888/order',data).
+        then((resp)=>{
+          if (resp.data.code == 0){
+            this.$router.push('/cart');
+          }else {
+            this.message= resp.data.message
+          }
+        })
+      }else {
+        this.$router.push('/cart');
+      }
+
     },
     getDetail(id){
       axios.get('http://35.240.134.17:8888/product/'+id).
