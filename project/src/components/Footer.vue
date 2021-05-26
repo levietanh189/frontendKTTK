@@ -1,5 +1,5 @@
 <template>
-  <div class="footer" style="background: url('http://localhost:9081/assets/images/background-header.jpg');">
+  <div class="footer" style="background: url('http://35.240.134.17:9081/assets/images/background-header.jpg');">
     <footer style="background-color: rgba(60,193,193,0.6); ">
 
       <!--=================== Footer Top Section ===================-->

@@ -1,6 +1,6 @@
 <template>
   <div class="header" id="myHeader">
-    <header style="background: url('http://localhost:9081/assets/images/background-header.jpg'); ">
+    <header style="background: url('http://35.240.134.17:9081/assets/images/background-header.jpg'); ">
       <!--=================== Header Top Section ===================-->
       <section class="header-top">
         <div class="container">
